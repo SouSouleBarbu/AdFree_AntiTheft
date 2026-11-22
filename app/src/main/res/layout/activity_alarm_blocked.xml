@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    tools:context=".AlarmBlockedActivity">
+
+    <!-- Haut : titre, pictogramme, texte (centré) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="32dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/alarm_blocked_title"
+            android:textColor="@color/text_primary"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivSpeakerMuted"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="24dp"
+            android:contentDescription="@string/alarm_blocked_title"
+            android:src="@drawable/ic_volume_off" />
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.3"
+            android:text="@string/alarm_blocked_message"
+            android:textColor="@color/text_secondary"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <!-- Milieu : bouton "Tester l'alarme" centré entre le texte et les boutons du bas -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnTestAlarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="0dp"
+            android:paddingVertical="21dp"
+            android:text="@string/alarm_blocked_test_alarm"
+            android:textAllCaps="false"
+            android:textColor="@color/btn_continue_text"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:autoSizeMaxTextSize="32sp"
+            app:autoSizeMinTextSize="14sp"
+            app:autoSizeStepGranularity="1sp"
+            app:autoSizeTextType="uniform"
+            app:backgroundTint="@color/btn_continue_bg"
+            app:cornerRadius="1000dp" />
+
+    </LinearLayout>
+
+    <!-- Bas : 3 boutons alignés en bas de l'écran, espacement identique (12dp) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp"
+        android:paddingBottom="12dp">
+
+        <!-- Bouton secondaire : contour vert, fond noir, texte vert -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnOpenSettings"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="0dp"
+            android:paddingVertical="10dp"
+            android:text="@string/alarm_blocked_open_settings"
+            android:textAllCaps="false"
+            android:textColor="@color/state_green"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="@android:color/black"
+            app:cornerRadius="1000dp"
+            app:strokeColor="@color/state_green"
+            app:strokeWidth="2dp" />
+
+        <!-- Deux boutons discrets -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnIgnoreAlways"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="0dp"
+                android:paddingVertical="6dp"
+                android:text="@string/alarm_blocked_ignore_always"
+                android:textAllCaps="false"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp"
+                app:backgroundTint="@color/surface_dark"
+                app:cornerRadius="1000dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnIgnoreOnce"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:minHeight="0dp"
+                android:paddingVertical="6dp"
+                android:text="@string/alarm_blocked_ignore_once"
+                android:textAllCaps="false"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp"
+                app:backgroundTint="@color/surface_dark"
+                app:cornerRadius="1000dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

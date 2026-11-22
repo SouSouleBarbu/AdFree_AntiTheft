@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Fond & Surfaces -->
+    <color name="background_color">#101418</color>
+    <color name="surface_dark">#1A2129</color>
+    <color name="card_background">#1E1E1E</color>
+
+    <!-- Textes -->
+    <color name="text_primary">#F2F5F7</color>
+    <color name="text_secondary">#9AA7B4</color>
+    <color name="text_low">#5C6B7A</color>
+
+    <!-- Couleurs d'état principales (Source unique de vérité) -->
+    <color name="state_green">#3DDC84</color>
+    <color name="state_red">#FF5252</color>
+    <color name="state_orange">#FF9800</color>
+    <color name="slider_track_inactive">#2A3542</color>
+
+    <!-- Textes contrastés sur disques d'état -->
+    <color name="text_on_green">#0B1F14</color>
+    <color name="text_on_red">#3A0A0A</color>
+    <color name="status_alarm_text">#FF8A80</color>
+
+    <!-- Alias pour rétrocompatibilité -->
+    <color name="btn_inactive_bg">@color/state_green</color>
+    <color name="btn_active_bg">@color/state_red</color>
+    <color name="btn_text_color">#FFFFFF</color>
+    <color name="accent_orange">@color/state_orange</color>
+    <color name="accent_amber">#FFB300</color>
+</resources>

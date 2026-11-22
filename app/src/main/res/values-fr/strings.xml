@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">AdFree AntiTheft</string>
+
+    <string name="btn_activate">ACTIVER</string>
+    <string name="btn_deactivate">DÉSACTIVER</string>
+
+    <string name="status_inactive">Surveillance inactive</string>
+    <string name="status_delay">Posez le téléphone...</string>
+    <string name="status_calibrating">Calibration en cours...</string>
+    <string name="status_active">Surveillance active</string>
+    <string name="status_alarm">🚨 ALARME DÉCLENCHÉE !</string>
+
+    <string name="biometric_title">Authentification requise</string>
+    <string name="biometric_subtitle">Authentifiez-vous pour désactiver la protection</string>
+    <string name="biometric_not_available">L\'authentification biométrique n\'est pas disponible ou configurée sur cet appareil.</string>
+    <string name="biometric_failed">Authentification échouée</string>
+    <string name="surveillance_active">Surveillance active</string>
+
+    <string name="notification_title">Protection Antivol</string>
+    <string name="notification_channel_name">Service Antivol</string>
+    <string name="notif_surveillance_active">Surveillance active</string>
+    <string name="notif_alarm_triggered">🚨 ALARME DÉCLENCHÉE !</string>
+
+    <string name="settings_title">Paramètres</string>
+    <string name="settings_back">Retour à l"écran principal</string>
+    <string name="settings_placement_delay_title">Délai pour poser le téléphone</string>
+    <string name="settings_placement_delay_desc">Temps d\'attente avant le début de la surveillance (1 à 30 s)</string>
+    <string name="settings_placement_delay_value">%d s</string>
+    <string name="settings_sensitivity_title">Sensibilité de détection</string>
+    <string name="settings_sensitivity_desc">1.1 : Le plus sensible\n1.5 : Par défaut\n2.0 : Le moins sensible</string>
+    <string name="settings_sensitivity_value">Sensibilité : %.1f</string>
+    <string name="settings_consecutive_title">Nombre de détections consécutives</string>
+    <string name="settings_consecutive_desc">1 = Déclenchement immédiat à la moindre secousse (réactivité maximale, mais risque de faux positifs).\n5 = Valeur par défaut équilibrée.\n10 = Nécessite un mouvement soutenu.</string>
+    <string name="settings_consecutive_value">Détections : %d</string>
+    <string name="settings_interval_title">Temps entre chaque détection</string>
+    <string name="settings_interval_desc">20 ms : Réactivité extrême, mais consomme de la batterie.\n50 ms (20 fois/sec) : Défaut.\n200 ms : Économie d\'énergie, mais la détection sera légèrement plus lente.</string>
+    <string name="settings_interval_value">Intervalle : %d ms</string>
+    <string name="settings_cable_alarm_title">Alarme au débranchement du câble</string>
+    <string name="settings_cable_alarm_desc">Déclenche l\'alarme si le téléphone est débranché de sa charge pendant la surveillance</string>
+    <string name="settings_test_alarm_button">Tester l\'alarme</string>
+    <string name="test_alarm_stop">ARRÊTER</string>
+    <string name="settings_reset_button">Réinitialiser les paramètres</string>
+    <string name="settings_reset_confirm">Paramètres réinitialisés aux valeurs par défaut</string>
+
+    <string name="btn_decrease">Diminuer</string>
+    <string name="btn_increase">Augmenter</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Configuration initiale</string>
+    <string name="onboarding_subtitle">Deux actions rapides pour une protection fiable</string>
+    <string name="onboarding_step_notifications">Autoriser les notifications</string>
+    <string name="onboarding_step_battery">Désactiver l\'optimisation de batterie</string>
+    <string name="onboarding_step_notifications_desc">Nécessaire pour diffuser l\'alerte antivol et maintenir la notification de surveillance active.</string>
+    <string name="onboarding_step_battery_desc">Indispensable pour éviter qu\'Android n\'arrête la surveillance lorsque l\'écran est éteint.</string>
+    <string name="onboarding_continue">Continuer</string>
+
+    <!-- Alarm blocked screen -->
+    <string name="alarm_blocked_title">Alarme bloquée</string>
+    <string name="alarm_blocked_message">Votre téléphone semble bloquer les alarmes.</string>
+    <string name="alarm_blocked_test_alarm">Tester l\'alarme</string>
+    <string name="alarm_blocked_open_settings">Accéder aux paramètres systèmes</string>
+    <string name="alarm_blocked_ignore_once">Ignorer cette fois</string>
+    <string name="alarm_blocked_ignore_always">Toujours Ignorer</string>
+    <string name="alarm_blocked_stop_alarm">Arrêter l\'alarme</string>
+</resources>

@@ -1,0 +1,31 @@
+# Fichiers compilés et générés par Gradle / Android
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+build/
+.gradle/
+.cxx/
+
+# Fichiers de configuration locale et d'IDE (Android Studio / IntelliJ)
+local.properties
+*.iml
+.idea/
+.navigation/
+captures/
+.externalNativeBuild/
+
+# Clés de signature et secrets (CRITIQUE : ne jamais publier)
+*.jks
+*.keystore
+keystore.properties
+google-services.json
+
+# Fichiers système (Windows / macOS / Linux)
+.DS_Store
+Thumbs.db
+*~

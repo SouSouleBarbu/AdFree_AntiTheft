@@ -1,0 +1,7 @@
+AdFree AntiTheft est une application de sécurité antivol légère, open-source et respectueuse de votre vie privée pour Android. Conçue sans publicité, sans pisteur ni dépendance propriétaire, elle protège votre appareil contre le vol.
+
+Fonctionnalités :
+* Détection antivol : Déclenche immédiatement une alarme en cas de mouvement non autorisé, de débranchement du chargeur ou d'activité suspecte.
+* 100 % Libre et Open Source (FOSS) : Aucune publicité, aucun outil d'analyse et aucun SDK propriétaire.
+* Hors-ligne et confidentiel : Fonctionne entièrement en local sur votre appareil sans envoyer de données personnelles vers des serveurs externes.
+* Léger et économe en batterie : Conçu pour fonctionner de manière fiable en arrière-plan avec une consommation minimale.

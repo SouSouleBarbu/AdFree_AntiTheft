@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Triangle foncé -->
+    <path
+        android:fillColor="#3A0A0A"
+        android:pathData="M12,2 L23,21 H1 Z" />
+    <!-- Point d'exclamation rouge (même rouge #FF5252 que le bouton) au milieu -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M11,8 H13 V14 H11 Z M11,16 H13 V18 H11 Z" />
+</vector>

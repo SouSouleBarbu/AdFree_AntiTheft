@@ -1,0 +1,7 @@
+AdFree AntiTheft is a lightweight, privacy-focused, open-source anti-theft security application for Android. Built without ads, trackers, or proprietary dependencies, it helps protect your device against theft.
+
+Features:
+* Anti-Theft Detection: Triggers an immediate alarm when unauthorized movement, charger disconnection, or suspicious activity is detected.
+* 100% Free & Open Source (FOSS): No advertisements, no analytics, and no proprietary SDKs.
+* Offline & Private: Works completely locally on your device without sending personal data to external servers.
+* Lightweight & Battery-Friendly: Designed to run reliably in the background with minimal resource usage.
