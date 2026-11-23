@@ -29,3 +29,9 @@ google-services.json
 .DS_Store
 Thumbs.db
 *~
+
+# Dossiers de sortie de signature et logs JVM
+app/release/
+release/
+hs_err_pid*.log
+replay_pid*.log
